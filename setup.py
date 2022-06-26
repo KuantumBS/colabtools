@@ -19,19 +19,19 @@ from setuptools import setup
 DEPENDENCIES = (
     # Note: these dependency versions should be kept in-sync with the versions
     # specified in the docker container requirements files.
-    'astor~=0.8.1',
+    'astor>=0.8.1',
     'google-auth>=1.17.2',
-    'ipykernel~=4.10',
+    'ipykernel>=4.10',
     'ipython~=5.5.0',
     'notebook~=5.2.0; python_version < "3.0"',
-    'notebook~=5.3.0; python_version >= "3.0"',
-    'six~=1.15.0',
+    'notebook>=5.3.0; python_version >= "3.0"',
+    'six>=1.15.0',
     'pandas~=0.24.0; python_version < "3.0"',
     'pandas>=1.1.0; python_version >= "3.0"',
-    'portpicker~=1.3.1',
-    'requests~=2.23.0',
+    'portpicker>=1.3.1',
+    'requests>=2.23.0',
     'tornado~=4.5.0; python_version < "3.0"',
-    'tornado~=5.1.0; python_version >= "3.0"',
+    'tornado>=5.1.0; python_version >= "3.0"',
 )
 
 setup(
@@ -53,6 +53,11 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: Apache Software License',
         'Operating System :: POSIX',
